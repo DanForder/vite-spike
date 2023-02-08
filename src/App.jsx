@@ -1,11 +1,10 @@
 import "./App.scss";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1 className="app__heading">Hello There</h1>
-    </>
+    <main className="app">
+      <h1 className="app__heading">Vite Spike</h1>
+      <h2 className="app__heading">Hello There</h2>
+    </main>
   );
 }
-
-export default App;
